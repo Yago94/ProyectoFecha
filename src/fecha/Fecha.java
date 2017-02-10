@@ -13,5 +13,12 @@ public class Fecha {
     int dia;
     int mes;
     int anno;
+
+    public Fecha(int dia, int mes, int anno) {
+        this.dia = dia;
+        this.mes = mes;
+        this.anno = anno;
+    }
+    
     
 }
